@@ -4,8 +4,6 @@ import os, sys
 from setuptools import setup, find_packages
 
 extra = {}
-if sys.version_info >= (3,):
-    extra['use_2to3'] = True
 
 setup(
     name = "lcdproc",
